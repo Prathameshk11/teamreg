@@ -2,11 +2,9 @@ import streamlit as st
 
 st.title('Time-Warped Brainiac: Teams, Rewind Your Maps!')
 
-
-def display_brainiac_event():
-    st.markdown("## Brainiac Challenge Solo Participants:")
-    st.markdown("🚀 Greetings Time-Traveling Brainiac! 🧠⏳")
-    st.markdown("Whoa! You've bravely embarked on the Brainiac Challenge solo journey. "
+st.markdown("## Brainiac Challenge Solo Participants:")
+st.markdown("🚀 Greetings Time-Traveling Brainiac! 🧠⏳")
+st.markdown("Whoa! You've bravely embarked on the Brainiac Challenge solo journey. "
                 "No need for a sidekick when you're the superhero of intellect! 🦸‍♂️💡\n\n"
                 "Prepare for mind-bending aptitude tests, intellectual debates, and a mock interview "
                 "(don't worry, the interviewers are nice time-traveling folks). "

@@ -2,10 +2,9 @@ import streamlit as st
 
 st.title('Timeless Solo Story: Teams, Exit Time Tunnel!')
 
-def display_prompt_saga_event():
-    st.markdown("## Prompt Saga Solo Participants:")
-    st.markdown("🎭 Greetings Time-Traveling Storyteller! 📜⏳")
-    st.markdown("A round of applause! You're the star of Prompt Saga's solo show. "
+st.markdown("## Prompt Saga Solo Participants:")
+st.markdown("🎭 Greetings Time-Traveling Storyteller! 📜⏳")
+st.markdown("A round of applause! You're the star of Prompt Saga's solo show. "
                 "No need for a supporting cast – your creativity steals the spotlight! 🌟🚀\n\n"
                 "Craft a visual saga with AI-generated images and embark on a storytelling escapade "
                 "that makes history (and future history). Your solo storytelling prowess is like "
