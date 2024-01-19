@@ -25,24 +25,38 @@ client = gspread.authorize(creds)
 sheet = client.open_by_key("1VeWt6NBUGqc_4TldxqFfrw9qWhd_4n_FKM0H0XEvoLw").worksheet("Sheet1")
 st.title("Team Registration")
 
-st.write("Welcome!")
+st.subheader("Ready to Register?")
+st.write("🚀 Secure your team's spot in the chronicles of Acunetix 11.0! Time waits for no one.")
 st.write('To register for team event access the sidebar using the button in the top left corner') 
-
 import streamlit as st
 
-st.title('Time-Warped Brainiac: Teams, Rewind Your Maps!')
+# Setting page style
+st.set_page_config(
+    page_title="Team Registration for Acunetix 11.0",
+    page_icon="🚀",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
 
+# Adding a title with style
+st.title("Team Registration for Acunetix 11.0 🛑🚀")
+st.image("acunetixheader.png", use_column_width=True)
+st.markdown("---")
 
-def display_brainiac_event():
-    st.markdown("## Brainiac Challenge Solo Participants:")
-    st.markdown("🚀 Greetings Time-Traveling Brainiac! 🧠⏳")
-    st.markdown("Whoa! You've bravely embarked on the Brainiac Challenge solo journey. "
-                "No need for a sidekick when you're the superhero of intellect! 🦸‍♂️💡\n\n"
-                "Prepare for mind-bending aptitude tests, intellectual debates, and a mock interview "
-                "(don't worry, the interviewers are nice time-traveling folks). "
-                "Your solo mission: to conquer brains across the space-time continuum! 🌌✨\n\n"
-                "Solo maestro, your wit is the DeLorean, and you're about to hit 88 mph into "
-                "the solo adventure of a lifetime!\n\n"
-                "P.S. Remember, in the time-traveling circus of brilliance, you're the solo acrobat! 🎩🌟")
+# Adding the general guidelines with style
+st.subheader("General Guidelines for Acunetix 11.0 Participants:")
+st.write("🛑 Fill details of every team member.")
+st.write("🔮 All participants are advised to report at the event venue 15 minutes before the event start time.")
+st.write("📡If any candidate(s) fail to comply with the event rules, the team will be disqualified immediately.")
+st.write("🌐Misbehavior or any acts that may lead to disruption of any event won't be tolerated. "
+         "Any participant(s) found guilty will be disqualified immediately.")
+st.write("🌌Team Acunetix will only engage in communication with the Team leads. "
+         "Team leads are responsible for any further communication between Team members. "
+         "Hence, we advise the team leads to check on updates.")
+st.write("🕰️ Team Acunetix reserves the right to modify decisions in case of any fouls and won't be accountable.")
+st.markdown("---")
+
+# You can add more content or information here based on your needs
+
 
 
