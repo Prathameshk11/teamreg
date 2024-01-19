@@ -30,7 +30,6 @@ client = gspread.authorize(creds)
 
 # Replace 'Sheet Name' with your actual+ sheet name
 sheet = client.open_by_key("1VeWt6NBUGqc_4TldxqFfrw9qWhd_4n_FKM0H0XEvoLw").worksheet("Sheet1")
-st.title("Team Registration")
 
 st.subheader("Ready to Register?")
 st.write("🚀 Secure your team's spot in the chronicles of Acunetix 11.0! Time waits for no one.")
@@ -54,6 +53,11 @@ st.write("🌌Team Acunetix will only engage in communication with the Team lead
          "Hence, we advise the team leads to check on updates.")
 st.write("🕰️ Team Acunetix reserves the right to modify decisions in case of any fouls and won't be accountable.")
 st.markdown("---")
+
+st.subheader("Ready to Register?")
+st.write("🚀 Secure your team's spot in the chronicles of Acunetix 11.0! Time waits for no one.")
+st.write('To register for team event access the sidebar using the button in the top left corner') 
+
 
 # You can add more content or information here based on your needs
 
