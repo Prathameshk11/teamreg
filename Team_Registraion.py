@@ -40,7 +40,8 @@ st.set_page_config(
 
 # Adding a title with style
 st.title("Team Registration for Acunetix 11.0 🛑🚀")
-st.image("acunetixheader.png", use_column_width=True)
+image_url = "https://i.ibb.co/GVR0QvY/acunetixheader.png"
+st.image(image_url, use_column_width=True) 
 st.markdown("---")
 
 # Adding the general guidelines with style
