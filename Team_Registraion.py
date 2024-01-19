@@ -17,7 +17,8 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-
+image_url = "https://i.ibb.co/GVR0QvY/acunetixheader.png"
+st.image(image_url, use_column_width=True) 
 
 # Function to write data to Google Sheet
 if 'submit_clicked' not in st.session_state:
@@ -38,8 +39,7 @@ st.write('To register for team event access the sidebar using the button in the 
 
 # Adding a title with style
 st.title("Team Registration for Acunetix 11.0 🛑🚀")
-image_url = "https://i.ibb.co/GVR0QvY/acunetixheader.png"
-st.image(image_url, use_column_width=True) 
+
 st.markdown("---")
 
 # Adding the general guidelines with style
