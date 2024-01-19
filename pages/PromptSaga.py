@@ -1,14 +1,19 @@
 import streamlit as st
+st.set_page_config(
+    page_title="🚀 Solo Odyssey: Navigating the Cosmos of Creativity!",
+    page_icon="🌌",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
+st.title("404: Teams Lost in Cosmic Time Warp! 🌌⏳")
+st.markdown("---")
 
-st.title('Timeless Solo Story: Teams, Exit Time Tunnel!')
 
-st.markdown("## Prompt Saga Solo Participants:")
-st.markdown("🎭 Greetings Time-Traveling Storyteller! 📜⏳")
-st.markdown("A round of applause! You're the star of Prompt Saga's solo show. "
-                "No need for a supporting cast – your creativity steals the spotlight! 🌟🚀\n\n"
-                "Craft a visual saga with AI-generated images and embark on a storytelling escapade "
-                "that makes history (and future history). Your solo storytelling prowess is like "
-                "a stand-up routine for time-traveling epochs! 🤹‍♀️📽️\n\n"
-                "Solo storyteller, your creativity is a cosmic stand-up routine. "
-                "Get ready to drop some punchlines in the time vortex!\n\n"
-                "P.S. In the grand theater of creativity, you're the solo superstar! 🎤🌌")
+st.write("Lost in the cosmic sea of creativity, Prompt Saga participants embark on a solo odyssey beyond the stars! ")
+st.write( "Dear Storytelling Explorer, while others navigate the vastness of space, you're charting your course through an imaginative cosmos. "
+         "Weave your tale, mold it into a storyboard masterpiece, and let AI-generated images sprinkle stardust on your narrative! 📜✨")
+
+st.markdown("---")
+
+gif_url = "https://media1.tenor.com/images/fbcad0ba0bf7432ead187816ff7cc8a7/tenor.gif?itemid=5065430"  # Replace with your GIF URL
+st.image(gif_url, caption="Embark on your solo adventure!", use_column_width=True)
