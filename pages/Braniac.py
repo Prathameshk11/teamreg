@@ -14,8 +14,8 @@ st.title("404: Teams Lost in Cosmic Time Warp! 🌌⏳")
 st.markdown("---")
 
 # Adding the main content with style
-st.write("Oops! Teams seem stuck in a cosmic time warp, where seconds feel like light-years. "
-         "But hey, Brainiac Buddy! While teams navigate time loops, you're all set for a solo adventure that defies the clock. "
+st.write("Oops! Teams seem stuck in a cosmic time warp, where seconds feel like light-years. ")
+st.write("But hey, Brainiac Buddy! While teams navigate time loops, you're all set for a solo adventure that defies the clock. "
          "Break out of your comfort zone, show off your skills in tests and discussions, and get ready for the big placement journey! 🚀🌠💼")
 
 # Adding a styled separator
