@@ -15,5 +15,5 @@ st.write( "Dear Storytelling Explorer, while others navigate the vastness of spa
 
 st.markdown("---")
 
-gif_url = "https://media1.tenor.com/m/WfZD9HMO5sIAAAAd/hum-pe-toh-hai-hi-nau-arpit-bala.gif"  # Replace with your GIF URL
+gif_url = "https://media1.tenor.com/images/fbcad0ba0bf7432ead187816ff7cc8a7/tenor.gif?itemid=5065430"  # Replace with your GIF URL
 st.image(gif_url, caption="Embark on your solo adventure!", use_column_width=True)

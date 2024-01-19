@@ -10,6 +10,12 @@ from gspread_dataframe import set_with_dataframe
 FOLDER_ID="1T3RiNpcYS-vbtSa_AN7z_ZlQbiZtLJfj"
 
 
+st.set_page_config(
+    page_title="Team Registration for Acunetix 11.0",
+    page_icon="🚀",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+)
 
 
 
@@ -28,15 +34,7 @@ st.title("Team Registration")
 st.subheader("Ready to Register?")
 st.write("🚀 Secure your team's spot in the chronicles of Acunetix 11.0! Time waits for no one.")
 st.write('To register for team event access the sidebar using the button in the top left corner') 
-import streamlit as st
 
-# Setting page style
-st.set_page_config(
-    page_title="Team Registration for Acunetix 11.0",
-    page_icon="🚀",
-    layout="wide",
-    initial_sidebar_state="collapsed",
-)
 
 # Adding a title with style
 st.title("Team Registration for Acunetix 11.0 🛑🚀")
