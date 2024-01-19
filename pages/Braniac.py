@@ -21,4 +21,5 @@ st.write("But hey, Brainiac Buddy! While teams navigate time loops, you're all s
 # Adding a styled separator
 st.markdown("---")
 
-# Adding a friendly reminder
+gif_url = "https://media1.tenor.com/images/fbcad0ba0bf7432ead187816ff7cc8a7/tenor.gif?itemid=5065430"  # Replace with your GIF URL
+st.image(gif_url, caption="Embark on your solo adventure!", use_column_width=True)
