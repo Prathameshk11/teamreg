@@ -25,8 +25,8 @@ page_by_img = '''
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url("https://th.bing.com/th/id/OIP.kB4N8I2x9xGnrIZneU7q2QHaNJ?pid=ImgDet&w=188&h=333&c=7&dpr=1.5") center center / no repeat;
-     background-size: auto; 
+    background: url("https://th.bing.com/th/id/OIP.kB4N8I2x9xGnrIZneU7q2QHaNJ?pid=ImgDet&w=188&h=333&c=7&dpr=1.5") center center no-repeat;
+    background-size: auto; /* Retain the original size of the background image */
     opacity: 0.5; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
 }
 </style>
