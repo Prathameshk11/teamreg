@@ -18,16 +18,16 @@ st.set_page_config(
 )
 page_by_img = '''
 <style>
-[data-testid="stApp"] >.st-emotion-cache-10trblm e1nzilvr1 ::before {
+body::before {
     content: '';
-    position: fixed;  /* Change from 'absolute' to 'fixed' */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     background: url("https://i.ibb.co/LdT0BKn/hourglass-with-sand-middle-word-sand-it.jpg") center center / cover;
     opacity: 0.5; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
-    background-attachment: fixed;  /* Change from 'local' to 'fixed' */
+    background-attachment: fixed;
 }
 
 [data-testid="stHeader"] {
@@ -36,6 +36,7 @@ page_by_img = '''
 </style>
 '''
 st.markdown(page_by_img, unsafe_allow_html=True)
+
 
 
 
