@@ -50,7 +50,7 @@ page_by_img = '''
 right: 2rem;
 }
 [data-testid="stSidebarNavItems"]> div:first-child {
-background-image: url("data:image/png;base64,{img}");
+background-image: url("data:image/jpg;base64,{img}");
 background-position: center; 
 background-repeat: no-repeat;
 background-attachment: fixed;
