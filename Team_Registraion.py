@@ -25,7 +25,7 @@ page_by_img = '''
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url("https://l1nq.com/qF7MD") center center / cover;
+    background: url("https://i.ibb.co/qF3LKgQ/trbg.jpg") center center / cover;
     opacity: 0.5; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
 }
 [data-testid="stHeader"] {
