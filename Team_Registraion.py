@@ -18,7 +18,7 @@ st.set_page_config(
 )
 page_by_img = '''
 <style>
-[data-testid="stApp"]::before {
+[data-testid="stApp"] >.st-emotion-cache-10trblm e1nzilvr1 ::before {
     content: '';
     position: absolute;
     top: 0;
@@ -27,7 +27,7 @@ page_by_img = '''
     height: 100vh;
     background: url("https://i.ibb.co/LdT0BKn/hourglass-with-sand-middle-word-sand-it.jpg") center center / cover;
     opacity: 0.5; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
-    
+    background-attachment:local;
 }
 [data-testid="stHeader"] {
 background: rgba(0,0,0,0);
