@@ -16,6 +16,15 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
+page_by_img='''
+<style>
+[data-testid="stApp"]{
+background-image:url("https://images.fineartamerica.com/images-medium-large-5/time-warp-tony-craddockscience-photo-library.jpg");
+background-size:cover;
+}
+</style>
+'''
+st.markdown(page_by_img,unsafe_allow_html=true)
 
 image_url = "https://i.ibb.co/GVR0QvY/acunetixheader.png"
 st.image(image_url, use_column_width=True) 
