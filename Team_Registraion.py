@@ -18,7 +18,7 @@ st.set_page_config(
 )
 page_by_img = '''
 <style>
-[data-testid="stApp"] >.st-emotion-cache-10trblm e1nzilvr1 {
+[data-testid="stApp"] ::before {
     content: '';
     position: absolute;
     top: 0;
