@@ -24,7 +24,7 @@ background-size:cover;
 }
 </style>
 '''
-st.markdown(page_by_img,unsafe_allow_html=true)
+st.markdown(page_by_img,unsafe_allow_html=True)
 
 image_url = "https://i.ibb.co/GVR0QvY/acunetixheader.png"
 st.image(image_url, use_column_width=True) 
