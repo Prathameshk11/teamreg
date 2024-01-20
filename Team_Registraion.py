@@ -20,7 +20,7 @@ page_by_img = '''
 <style>
 [data-testid="stApp"]::before {
     content: '';
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
