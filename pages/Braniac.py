@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
-
+    
 # Adding a title with style
 st.title("404: Teams Lost in Cosmic Time Warp! 🌌⏳")
 st.markdown("---")

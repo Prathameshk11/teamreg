@@ -31,7 +31,6 @@ client = gspread.authorize(creds)
 # Replace 'Sheet Name' with your actual+ sheet name
 sheet = client.open_by_key("1VeWt6NBUGqc_4TldxqFfrw9qWhd_4n_FKM0H0XEvoLw").worksheet("Sheet1")
 
-
 # Adding a title with style
 st.title("Team Registration for Acunetix 11.0 🛑🚀")
 
