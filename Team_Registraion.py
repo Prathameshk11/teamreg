@@ -8,7 +8,20 @@ from googleapiclient.http import MediaFileUpload
 import pandas as pd
 from gspread_dataframe import set_with_dataframe
 FOLDER_ID="1T3RiNpcYS-vbtSa_AN7z_ZlQbiZtLJfj"
+import base64
+import streamlit as st
+import plotly.express as px
 
+df = px.data.iris()
+
+@st.experimental_memo
+def get_img_as_base64(file):
+    with open(file, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
+
+img = get_img_as_base64("hourglass-with-sand-middle-word-sand-it.jpg")
 
 st.set_page_config(
     page_title="Team Registration for Acunetix 11.0",
@@ -33,7 +46,15 @@ page_by_img = '''
 [data-testid="stHeader"]{
     background-color:rgba(0,0,0,0);
 }
-
+[data-testid="stMainMenu"] {
+right: 2rem;
+}
+[data-testid="stSidebarNavItems"]> div:first-child {
+background-image: url("data:image/png;base64,{img}");
+background-position: center; 
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
 }
 </style>
 '''
