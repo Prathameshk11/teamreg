@@ -25,7 +25,7 @@ page_by_img = '''
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url("https://i.ibb.co/LdT0BKn/hourglass-with-sand-middle-word-sand-it.jpg") center center / cover;
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4ead5084-6a51-4fa9-af77-0ab78318db84/debx38j-0f08c4d8-e6fd-4543-8e5b-f2e46be1442d.jpg/v1/crop/w_496,h_700,x_0,y_0,scl_0.70056497175141,q_70,strp/inspection_by_andrejzt_debx38j-350t-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAwMCIsInBhdGgiOiJcL2ZcLzRlYWQ1MDg0LTZhNTEtNGZhOS1hZjc3LTBhYjc4MzE4ZGI4NFwvZGVieDM4ai0wZjA4YzRkOC1lNmZkLTQ1NDMtOGU1Yi1mMmU0NmJlMTQ0MmQuanBnIiwid2lkdGgiOiI8PTcwOCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.jsIqB51HGCr8rHAqSp5zfHOqA1SyYHJm7OU57hA4x_4") center center / cover;
     opacity: 0.5; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
 }
 [data-testid="stHeader"] {
