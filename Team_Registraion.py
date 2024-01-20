@@ -27,6 +27,10 @@ page_by_img = '''
     height: 100vh;
     background: url("https://images.unsplash.com/photo-1505506874110-6a7a69069a08?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D") center center / cover;
     opacity: 0.5; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
+
+[data-testid="stHeader"]{
+    background-color:rgba(0,0,0,0);
+}
 }
 </style>
 '''
