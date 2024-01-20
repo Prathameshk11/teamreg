@@ -21,6 +21,7 @@ page_by_img='''
 [data-testid="stApp"]{
 background-image:url("https://images.fineartamerica.com/images-medium-large-5/time-warp-tony-craddockscience-photo-library.jpg");
 background-size:cover;
+opacity:0.7;
 }
 </style>
 '''
