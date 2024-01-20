@@ -20,22 +20,23 @@ page_by_img = '''
 <style>
 [data-testid="stApp"] >.st-emotion-cache-10trblm e1nzilvr1 ::before {
     content: '';
-    position: absolute;
+    position: fixed;  /* Change from 'absolute' to 'fixed' */
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     background: url("https://i.ibb.co/LdT0BKn/hourglass-with-sand-middle-word-sand-it.jpg") center center / cover;
     opacity: 0.5; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
-    background-attachment:local;
-}
-[data-testid="stHeader"] {
-background: rgba(0,0,0,0);
+    background-attachment: fixed;  /* Change from 'local' to 'fixed' */
 }
 
+[data-testid="stHeader"] {
+    background: rgba(0,0,0,0);
+}
 </style>
 '''
 st.markdown(page_by_img, unsafe_allow_html=True)
+
 
 
 image_url = "https://i.ibb.co/GVR0QvY/acunetixheader.png"
