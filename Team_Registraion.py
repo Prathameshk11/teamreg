@@ -26,8 +26,7 @@ page_by_img = '''
     width: 100vw;
     height: 100vh;
     background: url("https://images.fineartamerica.com/images-medium-large-5/time-warp-tony-craddockscience-photo-library.jpg") center center / cover;
-    opacity: 0.8; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
-    z-index: -1;
+    opacity: 0.5; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
 }
 </style>
 '''
