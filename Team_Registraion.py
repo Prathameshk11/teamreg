@@ -11,6 +11,13 @@ FOLDER_ID="1T3RiNpcYS-vbtSa_AN7z_ZlQbiZtLJfj"
 import base64
 import streamlit as st
 import plotly.express as px
+import os
+
+script_dir = os.path.dirname(os.path.realpath(__file__))
+file_path = os.path.join(script_dir, "hourglass-with-sand-middle-word-sand-it.jpg")
+
+with open(file_path, "rb") as f:
+    data = f.read()
 
 df = px.data.iris()
 
