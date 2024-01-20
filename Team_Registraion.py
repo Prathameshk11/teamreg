@@ -14,18 +14,25 @@ st.set_page_config(
     page_title="Team Registration for Acunetix 11.0",
     page_icon="🚀",
     layout="wide",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_state="collapsed"
 )
-page_by_img='''
+page_by_img = '''
 <style>
-[data-testid="stApp"]{
-background-image:url("https://images.fineartamerica.com/images-medium-large-5/time-warp-tony-craddockscience-photo-library.jpg");
-background-size:cover;
-opacity:0.3;
+[data-testid="stApp"]::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("https://images.fineartamerica.com/images-medium-large-5/time-warp-tony-craddockscience-photo-library.jpg") center center / cover;
+    opacity: 0.8; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
+    z-index: -1;
 }
 </style>
 '''
-st.markdown(page_by_img,unsafe_allow_html=True)
+st.markdown(page_by_img, unsafe_allow_html=True)
+
 
 image_url = "https://i.ibb.co/GVR0QvY/acunetixheader.png"
 st.image(image_url, use_column_width=True) 
