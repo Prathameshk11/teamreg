@@ -8,27 +8,7 @@ from googleapiclient.http import MediaFileUpload
 import pandas as pd
 from gspread_dataframe import set_with_dataframe
 FOLDER_ID="1T3RiNpcYS-vbtSa_AN7z_ZlQbiZtLJfj"
-import base64
-import streamlit as st
-import plotly.express as px
-import os
 
-script_dir = os.path.dirname(os.path.realpath(__file__))
-file_path = os.path.join(script_dir, "hourglass-with-sand-middle-word-sand-it.jpg")
-
-with open(file_path, "rb") as f:
-    data = f.read()
-
-df = px.data.iris()
-
-@st.cache
-def get_img_as_base64(file):
-    with open(file, "rb") as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
-
-
-img = get_img_as_base64("hourglass-with-sand-middle-word-sand-it.jpg")
 
 st.set_page_config(
     page_title="Team Registration for Acunetix 11.0",
@@ -40,23 +20,19 @@ page_by_img = '''
 <style>
 [data-testid="stApp"]::before {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url("https://images.unsplash.com/photo-1505506874110-6a7a69069a08?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D") center center / cover;
-    opacity: 0.5;
+    background: url("https://th.bing.com/th/id/OIP.kB4N8I2x9xGnrIZneU7q2QHaNJ?pid=ImgDet&w=188&h=333&c=7&dpr=1.5") center center / cover;
+    opacity: 0.5; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
+    
 }
 [data-testid="stHeader"] {
-    background-color: rgba(0, 0, 0, 0);
+background: rgba(0,0,0,0);
 }
-[data-testid="stSidebarNavItems"] > div:first-child {
-    background-image: url("data:image/jpg;base64,{img}");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
 </style>
 '''
 st.markdown(page_by_img, unsafe_allow_html=True)
@@ -97,9 +73,3 @@ st.markdown("---")
 st.subheader("Ready to Register?")
 st.write("🚀 Secure your team's spot in the chronicles of Acunetix 11.0! Time waits for no one.")
 st.write('To register for team event access the sidebar using the button in the top left corner') 
-
-
-# You can add more content or information here based on your needs
-
-
-
