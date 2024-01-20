@@ -16,33 +16,36 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
-page_by_img = '''
-<style>
-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: url("https://i.ibb.co/LdT0BKn/hourglass-with-sand-middle-word-sand-it.jpg") center center / cover;
-    opacity: 0.5; /* Adjust the overlay opacity value as needed (0.0 to 1.0) */
-    background-attachment: fixed;
-}
 
-[data-testid="stHeader"] {
-    background: rgba(0,0,0,0);
-}
-</style>
+page_by_img = '''
+<script>
+const styles = `
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: url("https://i.ibb.co/LdT0BKn/hourglass-with-sand-middle-word-sand-it.jpg") center center / cover;
+        opacity: 0.5;
+        background-attachment: fixed;
+    }
+
+    [data-testid="stHeader"] {
+        background: rgba(0,0,0,0);
+    }
+`;
+
+const styleElement = document.createElement('style');
+styleElement.innerHTML = styles;
+document.head.appendChild(styleElement);
+</script>
 '''
 st.markdown(page_by_img, unsafe_allow_html=True)
 
-
-
-
 image_url = "https://i.ibb.co/GVR0QvY/acunetixheader.png"
 st.image(image_url, use_column_width=True) 
-
 # Function to write data to Google Sheet
 if 'submit_clicked' not in st.session_state:
     st.session_state.submit_clicked = False
